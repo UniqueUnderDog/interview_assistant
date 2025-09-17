@@ -1,0 +1,26 @@
+# 个人面试助手依赖包
+
+# 火山引擎SDK
+volcengine-python-sdk[ark]
+
+# 文件处理库
+PyPDF2              # PDF文件处理
+python-docx         # Word文件处理
+pdfplumber          # 高级PDF处理
+python-magic        # 文件类型识别
+
+# 数据处理和分析
+pandas              # 数据处理
+numpy               # 数值计算
+
+# GUI界面相关（tkinter是Python标准库，这里列出其他可能需要的库）
+pillow              # 图像处理库，用于未来可能的扩展
+
+# 可选：Web服务（如果需要提供Web接口）
+# fastapi
+# uvicorn
+
+# 开发工具
+pytest              # 单元测试
+black               # 代码格式化
+flake8              # 代码检查
